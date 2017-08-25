@@ -12,6 +12,7 @@
 		D2C33DAC1F5096E500F2EB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C33DAA1F5096E500F2EB9E /* Main.storyboard */; };
 		D2C33DAE1F5096E500F2EB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C33DAD1F5096E500F2EB9E /* Assets.xcassets */; };
 		D2C33DB11F5096E500F2EB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C33DAF1F5096E500F2EB9E /* LaunchScreen.storyboard */; };
+		D2C33DBA1F50AABA00F2EB9E /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C33DB91F50AABA00F2EB9E /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D2C33DAD1F5096E500F2EB9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2C33DB01F5096E500F2EB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2C33DB21F5096E500F2EB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C33DB91F50AABA00F2EB9E /* BorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D2C33DA51F5096E500F2EB9E /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				D2C33DB81F50AAA100F2EB9E /* Views */,
 				D2C33DA61F5096E500F2EB9E /* AppDelegate.swift */,
 				D2C33DA81F5096E500F2EB9E /* ViewController.swift */,
 				D2C33DAA1F5096E500F2EB9E /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				D2C33DB21F5096E500F2EB9E /* Info.plist */,
 			);
 			path = Swoosh;
+			sourceTree = "<group>";
+		};
+		D2C33DB81F50AAA100F2EB9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2C33DB91F50AABA00F2EB9E /* BorderButton.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +107,7 @@
 				TargetAttributes = {
 					D2C33DA21F5096E500F2EB9E = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W5HA2AHF8T;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +150,7 @@
 			files = (
 				D2C33DA91F5096E500F2EB9E /* ViewController.swift in Sources */,
 				D2C33DA71F5096E500F2EB9E /* AppDelegate.swift in Sources */,
+				D2C33DBA1F50AABA00F2EB9E /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W5HA2AHF8T;
 				INFOPLIST_FILE = Swoosh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ariven.swiftPractice.Swoosh;
@@ -274,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W5HA2AHF8T;
 				INFOPLIST_FILE = Swoosh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ariven.swiftPractice.Swoosh;
@@ -301,6 +316,7 @@
 				D2C33DB71F5096E500F2EB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
