@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -97,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="-209" y="125"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="JX8-r9-Pfy">
             <objects>
-                <viewController id="fRp-gg-nKL" sceneMemberID="viewController">
+                <viewController id="fRp-gg-nKL" customClass="LeagueVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="m1H-vS-3wa"/>
                         <viewControllerLayoutGuide type="bottom" id="10O-qN-9iu"/>
@@ -216,10 +216,10 @@
             </objects>
             <point key="canvasLocation" x="544.79999999999995" y="136.28185907046478"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="7yu-mZ-ekx">
             <objects>
-                <viewController id="Y7e-Eq-WQb" sceneMemberID="viewController">
+                <viewController id="Y7e-Eq-WQb" customClass="SkillVC" customModule="Swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TMn-y1-fOo"/>
                         <viewControllerLayoutGuide type="bottom" id="Sku-e6-1bo"/>
