@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2A6449D1F517599003B05D1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A6449C1F517599003B05D1 /* Player.swift */; };
 		D2C33DA71F5096E500F2EB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C33DA61F5096E500F2EB9E /* AppDelegate.swift */; };
 		D2C33DA91F5096E500F2EB9E /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C33DA81F5096E500F2EB9E /* WelcomeVC.swift */; };
 		D2C33DAC1F5096E500F2EB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C33DAA1F5096E500F2EB9E /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2A6449C1F517599003B05D1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		D2C33DA31F5096E500F2EB9E /* Swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C33DA61F5096E500F2EB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2C33DA81F5096E500F2EB9E /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2A6449B1F51757C003B05D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2A6449C1F517599003B05D1 /* Player.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		D2C33D9A1F5096E500F2EB9E = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		D2C33DA51F5096E500F2EB9E /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				D2A6449B1F51757C003B05D1 /* Model */,
 				D2E3740C1F512EC700524F92 /* Controller */,
 				D2C33DB81F50AAA100F2EB9E /* View */,
 				D2C33DA61F5096E500F2EB9E /* AppDelegate.swift */,
@@ -166,6 +177,7 @@
 				D2E3740F1F51316A00524F92 /* LeagueVC.swift in Sources */,
 				D2C33DA71F5096E500F2EB9E /* AppDelegate.swift in Sources */,
 				D2E374111F51317B00524F92 /* SkillVC.swift in Sources */,
+				D2A6449D1F517599003B05D1 /* Player.swift in Sources */,
 				D2C33DBA1F50AABA00F2EB9E /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
