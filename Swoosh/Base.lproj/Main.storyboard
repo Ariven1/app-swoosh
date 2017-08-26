@@ -88,10 +88,6 @@
                             <constraint firstItem="Fb0-Tm-QKF" firstAttribute="top" secondItem="29W-Z1-Kjq" secondAttribute="bottom" constant="85" id="yLf-dF-pjk"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="imgVBackground" destination="7Ph-FI-tyD" id="yWL-Jl-AEe"/>
-                        <outlet property="imgVSwoosh" destination="29W-Z1-Kjq" id="deZ-bo-JKk"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -178,6 +174,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNext:" destination="fRp-gg-nKL" eventType="touchUpInside" id="nSM-DB-f5Q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zj3-Ym-Rby">
                                 <rect key="frame" x="16" y="30" width="41" height="24"/>
@@ -210,6 +209,9 @@
                             <constraint firstItem="zj3-Ym-Rby" firstAttribute="leading" secondItem="aRI-tU-TTp" secondAttribute="leadingMargin" id="vfV-VO-0Rd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="Y7e-Eq-WQb" kind="show" identifier="LeagueVCIdentifier" id="yR2-ap-lON"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kiZ-V7-cmS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="O0T-NF-dfv" userLabel="Exit" sceneMemberID="exit"/>

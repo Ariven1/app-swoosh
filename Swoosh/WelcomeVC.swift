@@ -9,8 +9,7 @@
 import UIKit
 
 class WelcomeVC: UIViewController {
-    @IBOutlet weak var imgVSwoosh: UIImageView!
-    @IBOutlet weak var imgVBackground: UIImageView!
+
     
     
     override func viewDidLoad() {

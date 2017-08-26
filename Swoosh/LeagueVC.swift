@@ -21,7 +21,12 @@ class LeagueVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func btnNext(_ sender: Any) {
+        
+        performSegue(withIdentifier: "LeagueVCIdentifier", sender: self)
+    }
+    
+    
     /*
     // MARK: - Navigation
 
